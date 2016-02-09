@@ -5,6 +5,7 @@
 //  Created by Ricky Kirkendall on 1/31/16.
 //  Copyright © 2016 CodeLab. All rights reserved.
 //
+// Josh Matheny
 
 #import <Foundation/Foundation.h>
 #import "Restaurant.h"
