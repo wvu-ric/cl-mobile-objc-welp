@@ -22,9 +22,10 @@ int main(int argc, const char * argv[]) {
                                          @"Sunday":@"11AM - 9PM"};
         
         Restaurant *chipoltle = [[Restaurant alloc]initWithName:@"Chipoltle" phone:@"(304)555-5555" address:@"Right by the new Starbucks" andHours:chipoltleHours];
-        
+        //
         NSDictionary *chipoltleDict = [chipoltle toDictionary];
-        
+        //
+        NSLog(@"%@",[chipoltleDict description]);
     }
     return 0;
 }
