@@ -29,7 +29,10 @@
 -(NSDictionary *) toDictionary{
     //TODO: Implement this method
     // Use the following keys: 'name', 'phoneNumber', 'address', 'hours'
-    return @{};
+    NSArray *keys = @[@"name",@"phoneNumber",@"address",@"hours"];
+    NSDictionary *returnDict = [self dictionaryWithValuesForKeys:keys];
+    //
+    return returnDict;
 }
 
 @end
