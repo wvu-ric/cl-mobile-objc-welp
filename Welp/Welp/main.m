@@ -25,6 +25,8 @@ int main(int argc, const char * argv[]) {
         
         NSDictionary *chipoltleDict = [chipoltle toDictionary];
         
+        NSLog(@"%@",[chipoltleDict description]);
+        
     }
     return 0;
 }
