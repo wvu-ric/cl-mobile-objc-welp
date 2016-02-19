@@ -29,7 +29,11 @@
 -(NSDictionary *) toDictionary{
     //TODO: Implement this method
     // Use the following keys: 'name', 'phoneNumber', 'address', 'hours'
-    return @{};
+    return @{@"name"        : _name,
+             @"phoneNumber" : _phoneNumber,
+             @"address"     : _address,
+             @"hours"       : _hours
+    };
 }
 
 @end
