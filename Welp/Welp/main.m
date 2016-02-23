@@ -5,12 +5,12 @@
 //  Created by Ricky Kirkendall on 1/31/16.
 //  Copyright © 2016 CodeLab. All rights reserved.
 //
+// Josh Matheny
 
 #import <Foundation/Foundation.h>
 #import "Restaurant.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         
         NSDictionary *chipoltleHours = @{
                                          @"Monday":@"9AM - 9PM",
@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
         Restaurant *chipoltle = [[Restaurant alloc]initWithName:@"Chipoltle" phone:@"(304)555-5555" address:@"Right by the new Starbucks" andHours:chipoltleHours];
         
         NSDictionary *chipoltleDict = [chipoltle toDictionary];
+        NSLog(@"%@",[chipoltleDict description]);
         
     }
     return 0;
