@@ -2,8 +2,7 @@
 //  Restaurant.h
 //  Welp
 //
-//  Created by Ricky Kirkendall on 1/31/16.
-//  Copyright © 2016 CodeLab. All rights reserved.
+//  Austin Clark
 //
 
 #import <Foundation/Foundation.h>
