@@ -2,8 +2,7 @@
 //  Restaurant.m
 //  Welp
 //
-//  Created by Ricky Kirkendall on 1/31/16.
-//  Copyright © 2016 CodeLab. All rights reserved.
+//  Austin Clark 
 //
 
 #import "Restaurant.h"
@@ -29,7 +28,11 @@
 -(NSDictionary *) toDictionary{
     //TODO: Implement this method
     // Use the following keys: 'name', 'phoneNumber', 'address', 'hours'
-    return @{};
+    return @{@"name" : self.name ,
+             @"phoneNumber" : self.phoneNumber,
+             @"address" : self.address,
+             @"hours" : self.hours
+             };
 }
 
 @end
